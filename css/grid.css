@@ -1,0 +1,35 @@
+
+ /* Main container */
+.container {
+  width: 860px;
+  margin: 0 auto;
+  border:0px solid #01BEFF;
+
+  display:table; /* must put this in for FireFox. */
+ 
+
+}
+
+.column {
+  float: left;
+}
+
+/* header and footer*/
+.header  { width: 860px;}
+.footer { width: 860px;}
+
+/* middle content box with left and right column*/
+.mid  { width: 800px;}
+
+/* Content Column*/
+.content_column  { width: 500px;}
+
+.add-box{
+width:300px
+
+}
+
+/* left and right Columns*/
+.sidebar_left  { width: 150px; }
+
+.sidebar_right { width: 150px; }

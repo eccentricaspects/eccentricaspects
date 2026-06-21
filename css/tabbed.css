@@ -1,0 +1,99 @@
+
+/* TABS 
+.tabs-block {
+	clear: left;
+	float: left;
+	width:220px;
+	padding: 0;
+	margin: 0 0 10px 0;
+	display: block;
+	
+	
+	}
+.tabbed {
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	border: none;
+
+	
+	}
+	*/
+	
+.tabbed ul.tabs {
+	overflow: hidden;
+	display: block;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: transparent;
+	}
+.tabbed ul.tabs li {
+	display: inline;
+	float: left;
+	padding: 0;
+	margin: 0 .3em 0 0;
+	}
+.tabbed ul.tabs li a {
+	font-weight: bold;
+	display: block;
+	margin: 0;
+	padding: 5px .8em;
+	background: #eee;
+	border: 1px solid #ccc;
+	}
+.tabs-block ul.tabs li a { padding: 5px .7em; }
+.tabbed ul.tabs li a:hover {
+	background: #f7f7f7;
+	text-decoration: none;
+	}
+.tabbed ul.tabs li a.tab-current {
+	background: #fff;
+	border-bottom: 1px solid #fff;
+	}
+.tabs-block .tabbed div, #home .tabbed .c {
+	overflow: hidden;
+	display: block;
+	position: relative;
+	left: 0;
+	top: -1px;
+	z-index: 0;
+	clear: left;
+	width: 100%;
+	margin: 0;
+	padding: 5px 0;
+	border: 1px solid #ccc;
+	background: #fff;
+	display: none;
+	}
+div.t2, div.t3, div.t4, div.t5, div.c2, div.c3, div.c4, div.c5, div.c6, div.c7, div.c8, div.c9, div.c10  { display: none; }
+.tabs-block .tabbed div.t1, #home .tabbed div.c1 { 
+	display: block;
+	}
+.tabs-block .tabbed div { width:95%; }
+.tabbed div ul {
+	overflow: hidden;
+	padding: 4px 0 2px 0;
+	margin: 0;
+	background: #fff;
+	}
+.tabbed div ul li {
+	clear: left;
+	background: transparent;
+	}
+.tabbed div ul li a {
+	font-weight: normal;
+	width: 97%;
+	display: block;
+	padding: 2px 0 2px 12px;
+	background: transparent;
+	border: none;
+	}
+.tabbed div ul li a:hover { text-decoration: underline; }

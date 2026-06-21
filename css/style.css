@@ -1,0 +1,798 @@
+/*
+Theme Name:Black Forest
+Theme URI: http://dolphinqueen.co.cc/
+Description: <p>looking for sponsors for this brand new theme </p>
+Version: 1.0
+Author: dolphin queen
+Author URI: http://dolphinqueen.co.cc/
+*/
+
+/* Begin Typography & Colors */
+body {
+     font-size:0.75em; /* Resets 1em to 10px */
+     font-family: Arial, Helvetica, sans-serif;
+     color: #999;
+     margin:0px auto;
+     text-align:center;
+     background-color:#000;
+}
+
+html {
+     margin:0 auto;
+     background-repeat: repeat-y;
+     background-position: center top;
+}
+
+a {
+     text-decoration:underline;
+     color:#fff;
+}
+
+a:hover {
+     color:#fff;
+     text-decoration:underline;
+}
+
+a:link, a:visited {
+     color:#fff;
+}
+
+a:hover, a:active {
+     color:#fff;
+}
+
+.container {
+     width:1000px;
+     position:relative;
+}
+
+.header {
+     width:1000px;
+}
+
+#header{
+     width:1000px;
+     height:150px;
+     margin-bottom:50px;
+     background-image: url(../images/header.jpg);
+     background-position:0px 10px;
+     background-repeat: no-repeat;
+}
+
+.content-column {
+     float:left;
+     width:60%;
+}
+
+.content {
+
+}
+
+.sidebar-right-column {
+     float:right;
+     width:20%;
+}
+
+.column-footer {
+     clear:both;
+     margin-right: 20%;
+}
+
+#title_desc {
+    position:relative;
+    left:10px;
+    top:18px;
+    text-align: left;
+}
+
+#header h1 {
+     margin:0px;
+     padding:0px;
+     font-size:2.0em;
+}
+
+#header h1 a {
+     color: #ffffff;
+     font-weight:bold;
+     text-decoration:none;
+}
+
+#header h5 {
+     margin:0px;
+     padding:0px;
+     font-size:12px;
+     color:#ccc;
+     text-align: center;
+}
+
+#logo {
+     font-size:1.8em;
+     font-weight:bold;
+     color:#FFFFFF;
+     font-family: Arial, Helvetica, sans-serif;
+     position: absolute;
+     top:25px;
+     left:20px;
+}
+
+.banner-468 {
+     position:absolute;
+     right:10px;
+     top:20px;
+}
+
+/* menu */
+
+#menu {
+     position: absolute;
+     top:400px;
+     left:0px;
+     height:22px;
+     z-index:5;
+}
+
+#menu ul {
+     margin: 0  auto;
+     list-style: none;
+     list-style-type: none;
+     padding:0px;
+     font-family:Arial, Helvetica, sans-serif;
+}
+
+#menu ul li {
+     float: left;
+     margin: 0 0 0 1px;
+     background:url(http://eccentricaspects.com/css/images/bg_menu_tab_right1.gif) no-repeat right top;
+}
+
+#menu ul li a {
+     display: block;
+     padding: 6px 10px 0px;
+     text-decoration: none;
+     color: #fff;
+     background: url(http://eccentricaspects.com/css/images/bg_menu_tab_left1.gif) no-repeat;
+     height:20px;
+     font-weight:bold;
+     font-size:.90em;
+     border-right:1px solid #333;
+}
+
+#menu ul li a:hover {
+     text-decoration: underline;
+     color:#fff;
+}
+
+#menu ul li.current_page_item {
+     background: #451840 url(http://eccentricaspects.com/css/images/bg_menu_tab_right_current1.gif) no-repeat right top;
+}
+
+#menu ul li.current_page_item a {
+     color: #fff;
+     background: url(http://eccentricaspects.com/css/images/bg_menu_tab_left_current1.gif) no-repeat;
+}
+
+.mid {
+     position:relative;
+     top:0px;
+     left:0px;
+     z-index:5;
+}
+
+#add-box {
+     margin-top:10px;
+     text-align:center;
+}
+
+#add-box img {
+     padding:5px;
+}
+
+#add-box li {
+     list-style:none;
+}
+
+#add-box1 {
+     margin-top:10px;
+     border:0px solid #dedede;
+     background-color:#663399;
+     font-size:11px;
+}
+
+.add {
+     margin-top:20px;
+     text-align:center;
+}
+
+.add img {
+     margin:2px;
+     border:4px solid #500E4A;
+}
+
+.subscribe div {
+     margin-left:3px;
+}
+
+.tabbed {
+     margin-left:8px;
+
+
+}
+
+.rss {
+     position: absolute;
+     left:465px;
+     top:60px;
+     z-index:50;
+
+}
+
+.floral {
+     position: absolute;
+     left:-55px;
+     top:80px;
+     z-index:10;
+}
+
+#sidebars {
+     padding:10px;
+	
+}
+
+#sidebars a {
+     padding-left:0px;
+}
+
+
+#sidebars ul {
+      padding:0px;
+      margin:0px;
+      list-style:none;
+      color:#fff;
+}
+
+#sidebars ul li h2 {
+     color:#ccc;
+     margin:0px;
+     padding:0px 10px;
+     font-size:1.25em;
+     line-height:28px;
+/* background-image: url(images/h2bg1.jpg);
+	background-repeat: no-repeat;*/
+     height: 28px;
+     padding-right: 10px;
+     padding-left: 20px;
+     background-color:#111;
+     background-position: left;
+}
+
+#sidebars ul li ul {
+     margin-bottom:1px;
+     line-height:22px;
+     border:1px solid #111;
+     padding-left:0px;
+     margin-bottom:10px;
+     border-bottom:none;
+}
+
+#sidebars ul li ul ul {
+     border:none;
+}
+
+
+#sidebars ul li ul li {
+     border-bottom:1px solid #111;
+     display:block;
+     padding:0px 0px;
+     margin-bottom:1px;
+     padding-left:20px;
+}
+
+#sidebars ul li ul li a {
+     color:#666;
+     font-size:1.05em;
+     text-decoration:none;
+}
+
+
+#sidebars ul li ul li ul li {
+     margin-bottom:1px;
+     list-style-position:inside;
+     color:#666;
+     border-bottom:none;
+}
+
+#sidebars .comments li {
+     padding-left:20px;
+}
+
+.footer {
+     z-index:5;
+     position:relative;
+     top:-1px;
+}
+
+#footer {
+     height: 108px;
+     text-align:center;
+     vertical-align:bottom;
+     background-position: 0px center;
+     font-size:12px;
+     /*background-image: url(images/footer-bg.jpg);*/
+     background-repeat: no-repeat;
+}
+
+#footer p {
+     margin: 0;
+     padding:20px 0 0 0;
+     text-align: center;
+     color:#ffffff;
+}
+
+#footer p a {
+     color:#003366;
+}
+
+#bottom {
+     padding:20px 0 0 0;
+     text-align:center;
+     font-size:8px;
+}
+
+.bottom {
+     background-image: url(http://eccentricaspects.com/css/images/bottom-bg1.jpg);
+     background-repeat: repeat-x;
+     height:351px;
+     text-align:center;
+     font-size:12px;
+}
+
+#footer .cl1 {
+     float:left;
+     margin-right:5px;
+     margin-left:10px;
+     margin-top:10px;
+     width:261px;
+     border:1px solid #405059;
+     padding:10px;
+}
+
+#footer .cl1 h2 {
+     margin:0px;
+     padding:0px;
+     font-size:14px;
+     color:#fff;
+}
+
+#footer .cl1 {
+     text-align:left;
+     color:#C8C9CA;
+     list-style-position: outside;
+     list-style-image: none;
+     list-style-type: none;
+}
+
+#footer .cl1 a {
+     color:#C8C9CA;
+     text-decoration:none;
+}
+
+.sponsor ul {
+     margin:0px;
+     padding:0px;
+     text-align:center;
+}
+
+
+.sponsor li {
+     display:inline;
+     padding:3px 10px;
+}
+
+small {
+     font-size: 0.9em;
+}
+
+h2.pagetitle {
+     font-size: 1.2em;
+     color:#ccc;
+}
+
+.aligncenter {
+     display:block;
+     margin-left:auto;
+     margin-right:auto;
+}
+
+.alignleft {
+     display:block;
+     margin-right:10px;
+}
+
+.alignright {
+     display:block;
+     margin-left:10px;
+}
+
+acronym, abbr, span.caps {
+     font-size: 0.9em;
+     letter-spacing: .07em;
+}
+
+#wp-calendar #prev a, #wp-calendar #next a {
+     font-size: 9pt;
+}
+
+#wp-calendar a {
+     text-decoration: none;
+}
+
+#wp-calendar caption {
+     font: bold 1.3em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+     text-align: center;
+}
+
+#wp-calendar th {
+     font-style: normal;
+     text-transform: capitalize;
+}
+/* End Typography & Colors */
+
+.post {
+     font-size:12pt; /* Resets 1em to 10px */
+     margin: 2 2 2px;
+     text-align: justify;
+     line-height: 22px;
+}
+
+.post small {
+     margin:0px;
+     padding:0px;
+}
+
+.post small span {
+     font-size:1.0em;
+}
+
+.post h2, .post h3 {
+     margin:0px;
+     padding:0px;
+     padding-top:6px;
+}
+
+.post h2 a, .post h3 a {
+     color:#ccc;
+     font-size:25px;
+     font-weight:normal;
+     text-decoration:none;
+}
+
+.author {
+     padding:10px;
+     margin-bottom:10px;
+     border:0px solid #eee;
+     width:430px;
+     height:180px;
+     overflow:scroll;
+     list-style:none;
+     position:absolute;
+     right:50px;
+     top:180px;
+     color:#111;
+     font-size:12px;
+}
+
+.author h3, .author ul, .author li {
+     padding:0px;
+     margin:0px;
+     list-style:none;
+     padding-left:5px;
+}
+
+.author img {
+     margin-right:5px;
+}
+
+.postmetadata {
+     clear: left;
+     padding:3px 5px;
+     color:#333399;
+}
+
+.postmetadata a {
+     color:#333399;
+}
+
+/* End Structure */
+
+
+
+/*	Begin Headers */
+
+h2.pagetitle {
+     margin-top: 10px;
+     text-align: left;
+     padding:0px;
+     margin-bottom:0px;
+}
+
+/* End Entry Lists */
+.entry {
+       clear:both;
+       width:100%;
+}
+
+
+/* Begin Form Elements */
+
+.search {
+     position:absolute;
+     right:0px;
+     top:35px;
+     display:none;
+}
+
+#searchform {
+     margin: 0px auto;
+     padding: 10px;
+}
+
+#searchform #s {
+     width: auto;
+     padding: 2px;
+     color:#000;
+}
+
+#searchsubmit {
+     padding: 1px;
+     background-color:#150513;
+     border:1px solid #111;
+     color:#fff;
+}
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+     text-align:center;
+}
+
+select {
+     width: 130px;
+}
+
+
+/* Comments starts here*/
+
+.alt {
+     background-color: #333;
+     border:1px solid #222;
+     color:#ccc;
+}
+
+.alt a {
+     color:#ccc;
+}
+
+#commentform input {
+     width: 170px;
+     padding: 2px;
+     margin: 5px 5px 1px 0;
+     display: block;
+     background-color:#eee;
+     border:1px solid #ccc;
+     color:#000;
+}
+
+#commentform textarea {
+     width: 95%;
+     padding: 2px;
+     display: block;
+     background-color:#eee;
+     border:1px solid #ccc;
+}
+
+#commentform #submit {
+     margin: 0;
+     float: left;
+     background-color:#222;
+     color:#fff;
+}
+
+/* End Form Elements */
+
+
+/* Begin Comments*/
+.alt {
+     margin: 0;
+     padding: 10px;
+}
+
+.commentlist {
+     padding: 0;
+     text-align: justify;
+/*     color:#520345; */
+     color:#00ff00;
+}
+
+.commentlist li {
+     margin: 15px 0 3px;
+     padding: 5px 10px 3px;
+     list-style: none;
+}
+
+.commentlist p {
+     margin: 10px 5px 10px 0;
+}
+
+#commentform p {
+     margin: 5px 0;
+     color:#666666;
+}
+
+.nocomments {
+     text-align: center;
+     margin: 0;
+     padding: 0;
+}
+
+.commentmetadata {
+     margin: 0;
+     display: block;
+}
+/* End Comments */
+
+
+
+/* Begin Sidebar */
+
+#sidebar form {
+     margin: 0;
+}
+
+
+/* Begin Calendar */
+#wp-calendar {
+     empty-cells: show;
+     margin: 10px auto 10px;
+     width: 155px;
+     border:1px solid #eee;
+     padding:10px;
+}
+
+#wp-calendar #next a {
+     padding-right: 10px;
+     text-align: right;
+}
+
+#wp-calendar #prev a {
+     padding-left: 10px;
+     text-align: left;
+}
+
+#wp-calendar a {
+     display: block;
+}
+
+#wp-calendar caption {
+     text-align: center;
+     width: 100%;
+}
+
+#wp-calendar td {
+     padding: 3px 0;
+     text-align: center;
+}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+     background-color: #fff;
+}
+
+/* End Calendar */
+
+
+/* Begin Various Tags & Classes */
+acronym, abbr, span.caps {
+     cursor: help;
+}
+
+acronym, abbr {
+     border-bottom: 1px dashed #999;
+}
+
+blockquote {
+     margin: 15px 30px 0 10px;
+     padding-left: 20px;
+     border-left: 5px solid #ddd;
+}
+
+blockquote cite {
+     margin: 5px 0 0;
+     display: block;
+}
+
+.center {
+     text-align: center;
+}
+
+hr {
+     display: none;
+}
+
+a img {
+     border: none;
+}
+
+.navigation {
+     display: block;
+     text-align: center;
+     margin-top: 10px;
+     margin-bottom: 60px;
+}
+
+/* End Various Tags & Classes*/
+
+/* icons for user, cat and comments */
+
+.post .folder_icon {
+     background-image: url(http://eccentricaspects.com/css/images/folder1.gif);
+     background-repeat: no-repeat;
+     background-position: left center;
+}
+
+.post .folder_icon a {
+     margin-left:05px;
+     color:#264151;
+     font-weight:bold;
+}
+
+.post .comments {
+     background-image: url(http://eccentricaspects.com/css/images/comments1.gif);
+     background-repeat: no-repeat;
+     background-position: left center;
+}
+
+.post .comments a {
+     margin-left:15px;
+}
+
+.post .user {
+     font-weight: bold;
+}
+
+.cat a:link,.cat a:visited {
+     padding:2px;
+     color:#D779CB;
+}
+
+.post .readmore {
+     padding-right:10px;
+     clear: both;
+     float:right;
+}
+
+.post .readmore a {
+     font-weight:normal;
+     background-color:#000066;
+     color:#fff;
+     padding:4px;
+     border:1px solid #000;
+
+}
+
+.title .date {
+     float:left;
+     margin-right:10px;
+     text-align:center;
+     color:#0F343D;
+     font-size:11px;
+     background-image: url(http://eccentricaspects.com/css/images/post-date.gif);
+     background-repeat: no-repeat;
+     height: 50px;
+     width: 56px;
+     padding-top:8px;
+}
+
+.title .date strong {
+     font-size:25px;
+     font-weight:normal;
+}
+
+
+
